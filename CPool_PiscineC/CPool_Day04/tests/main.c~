@@ -1,0 +1,30 @@
+/*
+** main.c for emacs in /home/jules.spender/CPool_Day04/tests
+** 
+** Made by Jules Spender
+** Login   <jules.spender@epitech.net>
+** 
+** Started on  Thu Oct  6 11:52:38 2016 Jules Spender
+** Last update Thu Oct  6 19:39:57 2016 Jules Spender
+*/
+
+#include <unistd.h>
+int	my_swap();
+int	my_evile_str();
+int	my_putstr();
+int	my_strlen();
+
+void	my_putchar(char c)
+{
+  write (1, &c, 1);
+}
+int	main(void)
+{
+  int 15;
+  int 16;
+
+  my_swap(&a, &b);
+  return (a);
+  return (b);
+  return (0);
+}

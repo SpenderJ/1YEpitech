@@ -1,0 +1,47 @@
+/*
+** my_h.h for emacs in /home/jules/Piscine_Synthese_2017/SBMLparser/src
+** 
+** Made by Jules Spender
+** Login   <louis.chegaray@epitech.eu@epitech.net>
+** 
+** Started on  Mon Jun 12 10:21:55 2017 Jules Spender
+** Last update Fri Jun 16 12:59:03 2017 Jules Spender
+*/
+
+#ifndef _MY_H_H_
+# define _MY_H_H_
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+char	*tobase(char*, int);
+int	tod(char*, int);
+int	main(int, char**);
+void	my_putcherr(char);
+int	my_putsterr(char*);
+int	help_displayer(char*);
+char	*my_strcat(char*, char*);
+int	my_strncmp(char*, char*, int);
+int	my_strcmp(char*, char*);
+void	my_putchar(char);
+int	my_putstr(char*);
+int	my_strlen(char*);
+void	printtab(char**);
+int	palindrome(int, char**);
+int	launch_p(int, char**, int, int);
+int	launch_n(int, char**);
+int	check_flags(char**, int*, int*, int*);
+int	check_b(char*, int*, int*, int*);
+int	check_imin(char*, int*, int*, int*);
+int	check_imax(char*, int*, int*, int*);
+int	my_isnum(char*);
+void	p_solver(int*, int, int, int);
+char	*my_revstr(char*);
+char	*addition(char*, int, int, int);
+
+#endif /* !_MY_H_H_ */

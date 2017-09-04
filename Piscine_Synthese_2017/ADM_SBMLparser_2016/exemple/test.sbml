@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+   <model id="My_Model">
+          ...
+	         <listOfReactions>
+		            <reaction id="Reaction1" reversible="false">
+			                   <listOfReactants>
+					                      <speciesReference species="A"/>
+							                         <speciesReference species="B"/>
+										                </listOfReactants>
+												               <listOfProducts>
+													                          <speciesReference species="C"/>
+																                 </listOfProducts>
+																		                <kineticLaw>
+																				                   <math xmlns="http://www.w3.org/1998/Math/MathML">
+																						                          <apply>
+																									                             <times/>
+																												                                <ci>ka</ci>
+																																                           <ci>A</ci>
+																																			                              <ci>B</ci>
+																																						                             </apply>
+																																									                        </math>
+																																												               </kineticLaw>
+																																													                      <annotation>
+																																															                     </annotation>
+																																																	                </reaction>
+																																																			           <reaction id="Reaction2" reversible="false">
+																																																				                  <listOfReactants>
+																																																						                     <speciesReference species="C"/>
+																																																								                    </listOfReactants>
+																																																										                   <listOfProducts>
+																																																												                      <speciesReference species="A"/>
+																																																														                         <speciesReference species="B"/>
+																																																																	                </listOfProducts>
+																																																																			               <kineticLaw>
+																																																																				                          <math xmlns="http://www.w3.org/1998/Math/MathML">
+																																																																							                         <apply>
+																																																																										                            <times/>
+																																																																													                               <ci>kd</ci>
+																																																																																                                  <ci>C</ci>
+																																																																																				                         </apply>
+																																																																																							                    </math>
+																																																																																									                   </kineticLaw>
+																																																																																											              </reaction>
+																																																																																												                 </listOfReactions>
+																																																																																														    </model>
+																																																																																														    </sbml>

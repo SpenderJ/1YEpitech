@@ -1,0 +1,28 @@
+#Bienvenue dans le conf file du projet: "tekadventure".
+#
+#
+#Ce dernier a pour but de vous permettre de pouvoir lancer le jeu à n'importe quel niveau.
+#Il existe 3 niveau, un nombre supérieur à 3 ou inferieur à 0 sera donc interprété par un 0.
+#Si vous ne souhaitez pas lancer le conf file avec le projet "tekadventure", voici l'usage:
+#
+#
+#[USAGE] == ./tekadventure
+#
+#
+#Dans le cas contraire, veuillez lancer le "tekadventure" avec le conf file en paramètre:
+#
+#
+#[USAGE] == ./tekadventure conf_file.txt
+#
+#
+#Par ailleurs vous pouvez aussi créer votre conffile perso, il vous suffira de le mettre en argument et que la première ligne ne commencant par un "#" soit de la forme :"Level:x" avec x un entier naturel compris entre 0 et 3.
+#
+#Bonne utilisation et bonne chance dans la quête du Challenger.
+#
+Level:3
+#
+#
+#En cas de format incorrect le jeu se lancera au niveau 0, cependant une log d'erreur apparaitra au niveau du makefile et vous en serez informé dans votre terminal. Bon jeu.
+#
+#
+#Jules Spender | David Xu | Blaise Carnevillier | Ugo Bensaid
